@@ -1,4 +1,4 @@
-; Fri Feb 01 12:22:41 GMT 2019
+; Sun Feb 17 14:38:28 GMT 2019
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6,11 +6,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[Samantic+Web_ProjectKB_Class10181]
-		[Samantic+Web_ProjectKB_Class10182]
-		[Samantic+Web_ProjectKB_Class10183]
-		[Samantic+Web_ProjectKB_Class10184]
-		[Samantic+Web_ProjectKB_Class10185]))
+		[SemanticWeb_ProjectKB_Class55]
+		[SemanticWeb_ProjectKB_Class56]
+		[SemanticWeb_ProjectKB_Class57]
+		[SemanticWeb_ProjectKB_Class58]
+		[SemanticWeb_ProjectKB_Class59]))
 
 ([CLSES_TAB] of  Widget
 
@@ -483,9 +483,6 @@
 ([KB_140180_Instance_9] of  Property_List
 )
 
-([KB_165729_Class0] of  Map
-)
-
 ([KB_221055_Instance_10] of  Widget
 
 	(height 0)
@@ -643,6 +640,9 @@
 ([KB_221055_Instance_71] of  Property_List
 )
 
+([KB_298610_Class0] of  Map
+)
+
 ([KB_301165_Instance_1013] of  Widget
 
 	(is_hidden FALSE)
@@ -753,7 +753,7 @@
 ([KB_325529_Class4] of  String
 
 	(name "owl_file_name")
-	(string_value "file:/home/david/Protege/Samantic%20Web.rdf"))
+	(string_value "SemanticWeb.owl"))
 
 ([KB_444675_Instance_0] of  String
 
@@ -5361,8 +5361,8 @@
 		[KB_713803_Instance_303]
 		[KB_713803_Instance_477]
 		[KB_691299_Instance_398]
-		[KB_764103_Instance_545]
 		[KB_303942_Instance_68]
+		[KB_764103_Instance_545]
 		[Instance_443]
 		[KB_938545_Instance_661]
 		[KB_465546_Instance_567]
@@ -5596,393 +5596,272 @@
 		[SLOTS_TAB]
 		[KB_865583_Instance_10]))
 
-([Samantic+Web_ProjectKB_Class1] of  Widget
+([SemanticWeb_ProjectKB_Class1] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class2])
+	(property_list [SemanticWeb_ProjectKB_Class2])
 	(widget_class_name "org.protege.owl.mm.portability.protege3.MappingMasterTab"))
 
-([Samantic+Web_ProjectKB_Class10] of  Property_List
+([SemanticWeb_ProjectKB_Class10] of  Property_List
 )
 
-([Samantic+Web_ProjectKB_Class10158] of  Widget
+([SemanticWeb_ProjectKB_Class11] of  Widget
 
-	(is_hidden FALSE)
-	(name "http://www.cs.le.ac.uk/co7216#Parent")
-	(property_list [Samantic+Web_ProjectKB_Class10161])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormWidget"))
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class12])
+	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
 
-([Samantic+Web_ProjectKB_Class10161] of  Property_List
-
-	(properties
-		[Samantic+Web_ProjectKB_Class10162]
-		[Samantic+Web_ProjectKB_Class10165]
-		[Samantic+Web_ProjectKB_Class10168]
-		[Samantic+Web_ProjectKB_Class10171]
-		[Samantic+Web_ProjectKB_Class10173]
-		[Samantic+Web_ProjectKB_Class10175]
-		[Samantic+Web_ProjectKB_Class10177]
-		[Samantic+Web_ProjectKB_Class10179]))
-
-([Samantic+Web_ProjectKB_Class10162] of  Widget
-
-	(height 0)
-	(is_hidden FALSE)
-	(label "Name")
-	(name ":NAME")
-	(property_list [Samantic+Web_ProjectKB_Class10163])
-	(width 0)
-	(x 0)
-	(y 0))
-
-([Samantic+Web_ProjectKB_Class10163] of  Property_List
-
-	(properties [Samantic+Web_ProjectKB_Class10164]))
-
-([Samantic+Web_ProjectKB_Class10164] of  Boolean
-
-	(boolean_value TRUE)
-	(name "DisabledByUser"))
-
-([Samantic+Web_ProjectKB_Class10165] of  Property_List
-
-	(name "layout properties")
-	(properties
-		[Samantic+Web_ProjectKB_Class10166]
-		[Samantic+Web_ProjectKB_Class10167]))
-
-([Samantic+Web_ProjectKB_Class10166] of  String
-
-	(name "horizontal_stretcher")
-	(string_value "<<all>>"))
-
-([Samantic+Web_ProjectKB_Class10167] of  String
-
-	(name "vertical_stretcher")
-	(string_value "<<none>>"))
-
-([Samantic+Web_ProjectKB_Class10168] of  Widget
-
-	(height 180)
-	(is_hidden FALSE)
-	(name "http://protege.stanford.edu/plugins/owl/protege#inferredType")
-	(property_list [Samantic+Web_ProjectKB_Class10169])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.HeaderWidget")
-	(width 550)
-	(x 0)
-	(y 0))
-
-([Samantic+Web_ProjectKB_Class10169] of  Property_List
-
-	(properties [Samantic+Web_ProjectKB_Class10170]))
-
-([Samantic+Web_ProjectKB_Class10170] of  Boolean
-
-	(boolean_value FALSE)
-	(name "DisabledByUser"))
-
-([Samantic+Web_ProjectKB_Class10171] of  Widget
-
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2002/07/owl#versionInfo")
-	(property_list [Samantic+Web_ProjectKB_Class10172]))
-
-([Samantic+Web_ProjectKB_Class10172] of  Property_List
+([SemanticWeb_ProjectKB_Class12] of  Property_List
 )
 
-([Samantic+Web_ProjectKB_Class10173] of  Widget
+([SemanticWeb_ProjectKB_Class13] of  Widget
 
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2000/01/rdf-schema#isDefinedBy")
-	(property_list [Samantic+Web_ProjectKB_Class10174]))
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class14])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
 
-([Samantic+Web_ProjectKB_Class10174] of  Property_List
+([SemanticWeb_ProjectKB_Class14] of  Property_List
 )
 
-([Samantic+Web_ProjectKB_Class10175] of  Widget
+([SemanticWeb_ProjectKB_Class15] of  Widget
 
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2000/01/rdf-schema#comment")
-	(property_list [Samantic+Web_ProjectKB_Class10176]))
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class16])
+	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
 
-([Samantic+Web_ProjectKB_Class10176] of  Property_List
+([SemanticWeb_ProjectKB_Class16] of  Property_List
 )
 
-([Samantic+Web_ProjectKB_Class10177] of  Widget
+([SemanticWeb_ProjectKB_Class17] of  Widget
 
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2000/01/rdf-schema#seeAlso")
-	(property_list [Samantic+Web_ProjectKB_Class10178]))
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class18])
+	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
 
-([Samantic+Web_ProjectKB_Class10178] of  Property_List
+([SemanticWeb_ProjectKB_Class18] of  Property_List
 )
 
-([Samantic+Web_ProjectKB_Class10179] of  Widget
+([SemanticWeb_ProjectKB_Class19] of  Widget
 
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2000/01/rdf-schema#label")
-	(property_list [Samantic+Web_ProjectKB_Class10180]))
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class20])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
 
-([Samantic+Web_ProjectKB_Class10180] of  Property_List
+([SemanticWeb_ProjectKB_Class2] of  Property_List
 )
 
-([Samantic+Web_ProjectKB_Class10181] of  String
+([SemanticWeb_ProjectKB_Class20] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class21] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class22])
+	(widget_class_name "edu.stanford.smi.protegex.changes.ChangesTab"))
+
+([SemanticWeb_ProjectKB_Class22] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class23] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class24])
+	(widget_class_name "ca.uvic.csr.shrimp.jambalaya.JambalayaTab"))
+
+([SemanticWeb_ProjectKB_Class24] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class25] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class26])
+	(widget_class_name "org.protege.owl.axiome.ui.AxiomeTab"))
+
+([SemanticWeb_ProjectKB_Class26] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class27] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class28])
+	(widget_class_name "TGViztab.TGVizTab"))
+
+([SemanticWeb_ProjectKB_Class28] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class29] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class30])
+	(widget_class_name "edu.stanford.smi.protegex.evaluation.MetaAnalysis"))
+
+([SemanticWeb_ProjectKB_Class3] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class4])
+	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
+
+([SemanticWeb_ProjectKB_Class30] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class31] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class32])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
+
+([SemanticWeb_ProjectKB_Class32] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class33] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class34])
+	(widget_class_name "edu.stanford.smi.protegex.changes.changesKBViewTab.ChangesKBViewTab"))
+
+([SemanticWeb_ProjectKB_Class34] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class35] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class36])
+	(widget_class_name "se.liu.ida.JessTab.JessTab"))
+
+([SemanticWeb_ProjectKB_Class36] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class37] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class38])
+	(widget_class_name "edu.stanford.smi.protegex.changeanalysis.ChangeAnalysisTab"))
+
+([SemanticWeb_ProjectKB_Class38] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class39] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class40])
+	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
+
+([SemanticWeb_ProjectKB_Class4] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class40] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class41] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class42])
+	(widget_class_name "edu.stanford.smi.protegex.changes.stats.ChangeStatisticsTab"))
+
+([SemanticWeb_ProjectKB_Class42] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class43] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class44])
+	(widget_class_name "script.ProtegeScriptTab"))
+
+([SemanticWeb_ProjectKB_Class44] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class45] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class46])
+	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
+
+([SemanticWeb_ProjectKB_Class46] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class47] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class48])
+	(widget_class_name "edu.stanford.smi.protegex.chatPlugin.ChatTab"))
+
+([SemanticWeb_ProjectKB_Class48] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class49] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class50])
+	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
+
+([SemanticWeb_ProjectKB_Class5] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class6])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
+
+([SemanticWeb_ProjectKB_Class50] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class51] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class52])
+	(widget_class_name "edu.stanford.smi.protegex.datamaster.DataMasterTab"))
+
+([SemanticWeb_ProjectKB_Class52] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class53] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [SemanticWeb_ProjectKB_Class54])
+	(widget_class_name "ezpal.EZPalTab"))
+
+([SemanticWeb_ProjectKB_Class54] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class55] of  String
 
 	(name ":INSTANCE-ANNOTATION")
 	(string_value "%3AANNOTATION-TEXT"))
 
-([Samantic+Web_ProjectKB_Class10182] of  String
+([SemanticWeb_ProjectKB_Class56] of  String
 
 	(name "http://www.w3.org/2002/07/owl#Thing")
 	(string_value "%3ANAME"))
 
-([Samantic+Web_ProjectKB_Class10183] of  String
+([SemanticWeb_ProjectKB_Class57] of  String
 
 	(name "http://www.w3.org/2002/07/owl#Class")
 	(string_value "%3ANAME"))
 
-([Samantic+Web_ProjectKB_Class10184] of  String
+([SemanticWeb_ProjectKB_Class58] of  String
 
 	(name ":PAL-CONSTRAINT")
 	(string_value "%3APAL-NAME"))
 
-([Samantic+Web_ProjectKB_Class10185] of  String
+([SemanticWeb_ProjectKB_Class59] of  String
 
 	(name ":META-CLASS")
 	(string_value "%3ANAME"))
 
-([Samantic+Web_ProjectKB_Class11] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class12])
-	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
-
-([Samantic+Web_ProjectKB_Class12] of  Property_List
+([SemanticWeb_ProjectKB_Class6] of  Property_List
 )
 
-([Samantic+Web_ProjectKB_Class13] of  Widget
+([SemanticWeb_ProjectKB_Class7] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class14])
-	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
-
-([Samantic+Web_ProjectKB_Class14] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class15] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class16])
-	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
-
-([Samantic+Web_ProjectKB_Class16] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class17] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class18])
-	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
-
-([Samantic+Web_ProjectKB_Class18] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class19] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class20])
-	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
-
-([Samantic+Web_ProjectKB_Class2] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class20] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class21] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class22])
-	(widget_class_name "edu.stanford.smi.protegex.changes.ChangesTab"))
-
-([Samantic+Web_ProjectKB_Class22] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class23] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class24])
-	(widget_class_name "ca.uvic.csr.shrimp.jambalaya.JambalayaTab"))
-
-([Samantic+Web_ProjectKB_Class24] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class25] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class26])
-	(widget_class_name "org.protege.owl.axiome.ui.AxiomeTab"))
-
-([Samantic+Web_ProjectKB_Class26] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class27] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class28])
-	(widget_class_name "TGViztab.TGVizTab"))
-
-([Samantic+Web_ProjectKB_Class28] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class29] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class30])
-	(widget_class_name "edu.stanford.smi.protegex.evaluation.MetaAnalysis"))
-
-([Samantic+Web_ProjectKB_Class3] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class4])
-	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
-
-([Samantic+Web_ProjectKB_Class30] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class31] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class32])
-	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
-
-([Samantic+Web_ProjectKB_Class32] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class33] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class34])
-	(widget_class_name "edu.stanford.smi.protegex.changes.changesKBViewTab.ChangesKBViewTab"))
-
-([Samantic+Web_ProjectKB_Class34] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class35] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class36])
-	(widget_class_name "se.liu.ida.JessTab.JessTab"))
-
-([Samantic+Web_ProjectKB_Class36] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class37] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class38])
-	(widget_class_name "edu.stanford.smi.protegex.changeanalysis.ChangeAnalysisTab"))
-
-([Samantic+Web_ProjectKB_Class38] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class39] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class40])
-	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
-
-([Samantic+Web_ProjectKB_Class4] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class40] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class41] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class42])
-	(widget_class_name "edu.stanford.smi.protegex.changes.stats.ChangeStatisticsTab"))
-
-([Samantic+Web_ProjectKB_Class42] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class43] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class44])
-	(widget_class_name "script.ProtegeScriptTab"))
-
-([Samantic+Web_ProjectKB_Class44] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class45] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class46])
-	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
-
-([Samantic+Web_ProjectKB_Class46] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class47] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class48])
-	(widget_class_name "edu.stanford.smi.protegex.chatPlugin.ChatTab"))
-
-([Samantic+Web_ProjectKB_Class48] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class49] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class50])
-	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
-
-([Samantic+Web_ProjectKB_Class5] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class6])
-	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
-
-([Samantic+Web_ProjectKB_Class50] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class51] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class52])
-	(widget_class_name "edu.stanford.smi.protegex.datamaster.DataMasterTab"))
-
-([Samantic+Web_ProjectKB_Class52] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class53] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class54])
-	(widget_class_name "ezpal.EZPalTab"))
-
-([Samantic+Web_ProjectKB_Class54] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class6] of  Property_List
-)
-
-([Samantic+Web_ProjectKB_Class7] of  Widget
-
-	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class8])
+	(property_list [SemanticWeb_ProjectKB_Class8])
 	(widget_class_name "dfki.protege.ontoviz_tab.OntovizTab"))
 
-([Samantic+Web_ProjectKB_Class8] of  Property_List
+([SemanticWeb_ProjectKB_Class8] of  Property_List
 )
 
-([Samantic+Web_ProjectKB_Class9] of  Widget
+([SemanticWeb_ProjectKB_Class9] of  Widget
 
 	(is_hidden TRUE)
-	(property_list [Samantic+Web_ProjectKB_Class10])
+	(property_list [SemanticWeb_ProjectKB_Class10])
 	(widget_class_name "edu.stanford.smi.protegex.server_changes.prompt.UsersTab"))
 
 ([SLOTS_TAB] of  Widget
