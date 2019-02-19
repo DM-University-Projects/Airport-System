@@ -209,7 +209,7 @@
   </rdf:Property>
   <rdf:Property rdf:ID="FlightDestination">
     <rdfs:domain rdf:resource="#Ticket"/>
-    <rdfs:range rdf:resource="#Country"/>
+    <rdfs:range rdf:resource="#Destination"/>
   </rdf:Property>
   <rdf:Property rdf:ID="hasMilitaryAircraft">
     <rdfs:range rdf:resource="#Military_Aircraft"/>
@@ -230,10 +230,6 @@
   <rdf:Property rdf:ID="isGender">
     <rdfs:domain rdf:resource="#Passenger"/>
     <rdfs:range rdf:resource="#Gender"/>
-  </rdf:Property>
-  <rdf:Property rdf:ID="isLanding">
-    <rdfs:domain rdf:resource="#City"/>
-    <rdfs:range rdf:resource="#Runway"/>
   </rdf:Property>
   <Security rdf:ID="Showsec_Security"/>
   <Airline rdf:ID="American_Airlines-AA">
@@ -259,10 +255,12 @@
       <Military_Aircraft rdf:ID="Constant_Phoenix_WC-135"/>
     </hasMilitaryAircraft>
   </Airline>
-  <City rdf:ID="Tokyo"/>
   <Flight_Attendant rdf:ID="Sam_Rick">
     <isAssignedToFlight>
       <Flight_Number rdf:ID="BA2491">
+        <FlightDestination>
+          <Country rdf:ID="Thailand"/>
+        </FlightDestination>
         <FlightDestination>
           <Country rdf:ID="Jamiaca"/>
         </FlightDestination>
@@ -271,12 +269,17 @@
     <isAssignedToFlight>
       <Flight_Number rdf:ID="BA2496">
         <FlightDestination>
-          <Country rdf:ID="Thailand"/>
+          <City rdf:ID="Tokyo"/>
         </FlightDestination>
+        <FlightDestination>
+          <City rdf:ID="Bangkok"/>
+        </FlightDestination>
+        <FlightDestination rdf:resource="#Thailand"/>
       </Flight_Number>
     </isAssignedToFlight>
     <isAssignedToFlight>
       <Flight_Number rdf:ID="BA2490">
+        <FlightDestination rdf:resource="#Tokyo"/>
         <FlightDestination>
           <Country rdf:ID="Hong_Kong"/>
         </FlightDestination>
@@ -308,6 +311,7 @@
     <isAssignedToFlight rdf:resource="#BA2496"/>
     <isAssignedToFlight>
       <Flight_Number rdf:ID="BA2492">
+        <FlightDestination rdf:resource="#Hong_Kong"/>
         <FlightDestination>
           <Country rdf:ID="Japan"/>
         </FlightDestination>
@@ -326,6 +330,12 @@
     <isAssignedToFlight>
       <Flight_Number rdf:ID="BA2412">
         <FlightDestination>
+          <City rdf:ID="Istanbul"/>
+        </FlightDestination>
+        <FlightDestination>
+          <City rdf:ID="Seoul"/>
+        </FlightDestination>
+        <FlightDestination>
           <Country rdf:ID="Cyprus"/>
         </FlightDestination>
       </Flight_Number>
@@ -333,6 +343,9 @@
     <isAssignedToFlight rdf:resource="#BA2492"/>
     <isAssignedToFlight>
       <Flight_Number rdf:ID="BA2495">
+        <FlightDestination>
+          <City rdf:ID="Singapore"/>
+        </FlightDestination>
         <FlightDestination>
           <Country rdf:ID="Spain"/>
         </FlightDestination>
@@ -409,9 +422,7 @@
     <isAssignedToFlight rdf:resource="#BA2496"/>
   </Flight_Attendant>
   <Baggage_Reclaim_Area rdf:ID="Main_Floor_Reclaim_Area"/>
-  <City rdf:ID="Bangkok"/>
   <Country rdf:ID="China"/>
-  <City rdf:ID="Istanbul"/>
   <Flight_Attendant rdf:ID="Sally_Tims">
     <isAssignedToFlight rdf:resource="#BA2495"/>
     <isAssignedToFlight rdf:resource="#BA2492"/>
@@ -422,7 +433,6 @@
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Rick San Morty</hasFullName>
   </Children>
-  <City rdf:ID="Singapore"/>
   <Ground_Security rdf:ID="Patrol_Force"/>
   <Domestic_Airport rdf:ID="Eagle_Flights">
     <hasPassengerAircraft rdf:resource="#Comac_C919"/>
@@ -503,6 +513,11 @@
         >41</isAge>
         <hasFlightNumber>
           <Flight_Number rdf:ID="BA2411">
+            <FlightDestination>
+              <City rdf:ID="New_York"/>
+            </FlightDestination>
+            <FlightDestination rdf:resource="#Seoul"/>
+            <FlightDestination rdf:resource="#Bangkok"/>
             <FlightDestination>
               <Country rdf:ID="Cuba"/>
             </FlightDestination>
@@ -612,6 +627,10 @@
     <isAirline rdf:resource="#British_Airways-BA"/>
     <hasFlightNumber>
       <Flight_Number rdf:ID="BA2493">
+        <FlightDestination rdf:resource="#New_York"/>
+        <FlightDestination>
+          <City rdf:ID="Kuala_Lumpur"/>
+        </FlightDestination>
         <FlightDestination>
           <Country rdf:ID="Paris"/>
         </FlightDestination>
@@ -799,7 +818,6 @@
   <Luggage_Size_Restriction rdf:ID="Luggages_35KG_or_more"/>
   <Luggage_Size_Restriction rdf:ID="Luggages_45KG_or_more"/>
   <City rdf:ID="London"/>
-  <City rdf:ID="Seoul"/>
   <Airline rdf:ID="German_Wings_GW">
     <hasPassengerAircraft rdf:resource="#Irkut_MC-21"/>
     <hasPassengerAircraft rdf:resource="#Boeing_767"/>
@@ -808,7 +826,6 @@
     <hasMilitaryAircraft rdf:resource="#Texan_T-6"/>
     <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
   </Airline>
-  <City rdf:ID="New_York"/>
   <Co-Pilot rdf:ID="James_Blunt"/>
   <Flight_Attendant rdf:ID="Kitty_Brain">
     <isAssignedToFlight rdf:resource="#BA2490"/>
@@ -901,7 +918,6 @@
     <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
     <hasAvailableRunWay rdf:resource="#NoAvailableRunWays"/>
   </International_Airport>
-  <City rdf:ID="Kuala_Lumpur"/>
   <Airline rdf:ID="EasyJet_EJ">
     <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
     <hasPassengerAircraft rdf:resource="#Airbus_A380"/>

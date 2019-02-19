@@ -1,4 +1,4 @@
-; Tue Feb 19 20:11:04 GMT 2019
+; Tue Feb 19 20:16:14 GMT 2019
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6,11 +6,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[SemanticWeb_ProjectKB_Class14549]
-		[SemanticWeb_ProjectKB_Class14550]
-		[SemanticWeb_ProjectKB_Class14551]
-		[SemanticWeb_ProjectKB_Class14552]
-		[SemanticWeb_ProjectKB_Class14553]))
+		[SemanticWeb_ProjectKB_Class14757]
+		[SemanticWeb_ProjectKB_Class14758]
+		[SemanticWeb_ProjectKB_Class14759]
+		[SemanticWeb_ProjectKB_Class14760]
+		[SemanticWeb_ProjectKB_Class14761]))
 
 ([CLSES_TAB] of  Widget
 
@@ -5630,27 +5630,41 @@
 ([SemanticWeb_ProjectKB_Class14] of  Property_List
 )
 
-([SemanticWeb_ProjectKB_Class14549] of  String
+([SemanticWeb_ProjectKB_Class14728] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "http://www.cs.le.ac.uk/co7216#FlightDestination")
+	(property_list [SemanticWeb_ProjectKB_Class14729])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
+	(width 200)
+	(x 0)
+	(y 180))
+
+([SemanticWeb_ProjectKB_Class14729] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class14757] of  String
 
 	(name ":INSTANCE-ANNOTATION")
 	(string_value "%3AANNOTATION-TEXT"))
 
-([SemanticWeb_ProjectKB_Class14550] of  String
+([SemanticWeb_ProjectKB_Class14758] of  String
 
 	(name "http://www.w3.org/2002/07/owl#Thing")
 	(string_value "%3ANAME"))
 
-([SemanticWeb_ProjectKB_Class14551] of  String
+([SemanticWeb_ProjectKB_Class14759] of  String
 
 	(name "http://www.w3.org/2002/07/owl#Class")
 	(string_value "%3ANAME"))
 
-([SemanticWeb_ProjectKB_Class14552] of  String
+([SemanticWeb_ProjectKB_Class14760] of  String
 
 	(name ":PAL-CONSTRAINT")
 	(string_value "%3APAL-NAME"))
 
-([SemanticWeb_ProjectKB_Class14553] of  String
+([SemanticWeb_ProjectKB_Class14761] of  String
 
 	(name ":META-CLASS")
 	(string_value "%3ANAME"))
