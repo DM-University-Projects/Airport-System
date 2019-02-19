@@ -1,4 +1,4 @@
-; Tue Feb 19 20:16:14 GMT 2019
+; Tue Feb 19 21:20:14 GMT 2019
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6,11 +6,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[SemanticWeb_ProjectKB_Class14757]
-		[SemanticWeb_ProjectKB_Class14758]
-		[SemanticWeb_ProjectKB_Class14759]
-		[SemanticWeb_ProjectKB_Class14760]
-		[SemanticWeb_ProjectKB_Class14761]))
+		[SemanticWeb_ProjectKB_Class1113]
+		[SemanticWeb_ProjectKB_Class1114]
+		[SemanticWeb_ProjectKB_Class1115]
+		[SemanticWeb_ProjectKB_Class1116]
+		[SemanticWeb_ProjectKB_Class1117]))
 
 ([CLSES_TAB] of  Widget
 
@@ -483,6 +483,9 @@
 ([KB_140180_Instance_9] of  Property_List
 )
 
+([KB_144809_Class0] of  Map
+)
+
 ([KB_221055_Instance_10] of  Widget
 
 	(height 0)
@@ -751,9 +754,6 @@
 
 	(name "owl_file_name")
 	(string_value "SemanticWeb.owl"))
-
-([KB_441587_Class0] of  Map
-)
 
 ([KB_444675_Instance_0] of  String
 
@@ -5611,6 +5611,31 @@
 	(property_list [SemanticWeb_ProjectKB_Class12])
 	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
 
+([SemanticWeb_ProjectKB_Class1113] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([SemanticWeb_ProjectKB_Class1114] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Thing")
+	(string_value "%3ANAME"))
+
+([SemanticWeb_ProjectKB_Class1115] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Class")
+	(string_value "%3ANAME"))
+
+([SemanticWeb_ProjectKB_Class1116] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([SemanticWeb_ProjectKB_Class1117] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
 ([SemanticWeb_ProjectKB_Class12] of  Property_List
 )
 
@@ -5620,54 +5645,8 @@
 	(property_list [SemanticWeb_ProjectKB_Class14])
 	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
 
-([SemanticWeb_ProjectKB_Class1334] of  Widget
-
-	(is_hidden FALSE)
-	(name "http://www.cs.le.ac.uk/co7216#Destination1")
-	(property_list [SemanticWeb_ProjectKB_Class1689])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormWidget"))
-
 ([SemanticWeb_ProjectKB_Class14] of  Property_List
 )
-
-([SemanticWeb_ProjectKB_Class14728] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "http://www.cs.le.ac.uk/co7216#FlightDestination")
-	(property_list [SemanticWeb_ProjectKB_Class14729])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
-	(width 200)
-	(x 0)
-	(y 180))
-
-([SemanticWeb_ProjectKB_Class14729] of  Property_List
-)
-
-([SemanticWeb_ProjectKB_Class14757] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([SemanticWeb_ProjectKB_Class14758] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Thing")
-	(string_value "%3ANAME"))
-
-([SemanticWeb_ProjectKB_Class14759] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Class")
-	(string_value "%3ANAME"))
-
-([SemanticWeb_ProjectKB_Class14760] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([SemanticWeb_ProjectKB_Class14761] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
 
 ([SemanticWeb_ProjectKB_Class15] of  Widget
 
@@ -5678,125 +5657,11 @@
 ([SemanticWeb_ProjectKB_Class16] of  Property_List
 )
 
-([SemanticWeb_ProjectKB_Class1689] of  Property_List
-
-	(properties
-		[SemanticWeb_ProjectKB_Class1690]
-		[SemanticWeb_ProjectKB_Class1693]
-		[SemanticWeb_ProjectKB_Class1696]
-		[SemanticWeb_ProjectKB_Class1699]
-		[SemanticWeb_ProjectKB_Class1701]
-		[SemanticWeb_ProjectKB_Class1703]
-		[SemanticWeb_ProjectKB_Class1705]
-		[SemanticWeb_ProjectKB_Class1707]))
-
-([SemanticWeb_ProjectKB_Class1690] of  Widget
-
-	(height 0)
-	(is_hidden FALSE)
-	(label "Name")
-	(name ":NAME")
-	(property_list [SemanticWeb_ProjectKB_Class1691])
-	(width 0)
-	(x 0)
-	(y 0))
-
-([SemanticWeb_ProjectKB_Class1691] of  Property_List
-
-	(properties [SemanticWeb_ProjectKB_Class1692]))
-
-([SemanticWeb_ProjectKB_Class1692] of  Boolean
-
-	(boolean_value TRUE)
-	(name "DisabledByUser"))
-
-([SemanticWeb_ProjectKB_Class1693] of  Property_List
-
-	(name "layout properties")
-	(properties
-		[SemanticWeb_ProjectKB_Class1694]
-		[SemanticWeb_ProjectKB_Class1695]))
-
-([SemanticWeb_ProjectKB_Class1694] of  String
-
-	(name "horizontal_stretcher")
-	(string_value "<<all>>"))
-
-([SemanticWeb_ProjectKB_Class1695] of  String
-
-	(name "vertical_stretcher")
-	(string_value "<<none>>"))
-
-([SemanticWeb_ProjectKB_Class1696] of  Widget
-
-	(height 180)
-	(is_hidden FALSE)
-	(name "http://protege.stanford.edu/plugins/owl/protege#inferredType")
-	(property_list [SemanticWeb_ProjectKB_Class1697])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.HeaderWidget")
-	(width 550)
-	(x 0)
-	(y 0))
-
-([SemanticWeb_ProjectKB_Class1697] of  Property_List
-
-	(properties [SemanticWeb_ProjectKB_Class1698]))
-
-([SemanticWeb_ProjectKB_Class1698] of  Boolean
-
-	(boolean_value FALSE)
-	(name "DisabledByUser"))
-
-([SemanticWeb_ProjectKB_Class1699] of  Widget
-
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2002/07/owl#versionInfo")
-	(property_list [SemanticWeb_ProjectKB_Class1700]))
-
 ([SemanticWeb_ProjectKB_Class17] of  Widget
 
 	(is_hidden TRUE)
 	(property_list [SemanticWeb_ProjectKB_Class18])
 	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
-
-([SemanticWeb_ProjectKB_Class1700] of  Property_List
-)
-
-([SemanticWeb_ProjectKB_Class1701] of  Widget
-
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2000/01/rdf-schema#isDefinedBy")
-	(property_list [SemanticWeb_ProjectKB_Class1702]))
-
-([SemanticWeb_ProjectKB_Class1702] of  Property_List
-)
-
-([SemanticWeb_ProjectKB_Class1703] of  Widget
-
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2000/01/rdf-schema#comment")
-	(property_list [SemanticWeb_ProjectKB_Class1704]))
-
-([SemanticWeb_ProjectKB_Class1704] of  Property_List
-)
-
-([SemanticWeb_ProjectKB_Class1705] of  Widget
-
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2000/01/rdf-schema#seeAlso")
-	(property_list [SemanticWeb_ProjectKB_Class1706]))
-
-([SemanticWeb_ProjectKB_Class1706] of  Property_List
-)
-
-([SemanticWeb_ProjectKB_Class1707] of  Widget
-
-	(is_hidden FALSE)
-	(name "http://www.w3.org/2000/01/rdf-schema#label")
-	(property_list [SemanticWeb_ProjectKB_Class1708]))
-
-([SemanticWeb_ProjectKB_Class1708] of  Property_List
-)
 
 ([SemanticWeb_ProjectKB_Class18] of  Property_List
 )
@@ -5889,20 +5754,6 @@
 	(widget_class_name "se.liu.ida.JessTab.JessTab"))
 
 ([SemanticWeb_ProjectKB_Class36] of  Property_List
-)
-
-([SemanticWeb_ProjectKB_Class360] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "http://www.cs.le.ac.uk/co7216#isAssignedToFlight")
-	(property_list [SemanticWeb_ProjectKB_Class361])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
-	(width 200)
-	(x 0)
-	(y 180))
-
-([SemanticWeb_ProjectKB_Class361] of  Property_List
 )
 
 ([SemanticWeb_ProjectKB_Class37] of  Widget
