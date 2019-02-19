@@ -1,4 +1,4 @@
-; Sun Feb 17 14:38:28 GMT 2019
+; Tue Feb 19 18:26:44 GMT 2019
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6,11 +6,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[SemanticWeb_ProjectKB_Class55]
-		[SemanticWeb_ProjectKB_Class56]
-		[SemanticWeb_ProjectKB_Class57]
-		[SemanticWeb_ProjectKB_Class58]
-		[SemanticWeb_ProjectKB_Class59]))
+		[SemanticWeb_ProjectKB_Class12157]
+		[SemanticWeb_ProjectKB_Class12158]
+		[SemanticWeb_ProjectKB_Class12159]
+		[SemanticWeb_ProjectKB_Class12160]
+		[SemanticWeb_ProjectKB_Class12161]))
 
 ([CLSES_TAB] of  Widget
 
@@ -640,9 +640,6 @@
 ([KB_221055_Instance_71] of  Property_List
 )
 
-([KB_298610_Class0] of  Map
-)
-
 ([KB_301165_Instance_1013] of  Widget
 
 	(is_hidden FALSE)
@@ -766,6 +763,9 @@
 	(name "http://protege.stanford.edu/plugins/owl/protege#ExternalResource")
 	(property_list [XY_Instance_890])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormWidget"))
+
+([KB_546824_Class0] of  Map
+)
 
 ([KB_632156_Instance_0] of  String
 
@@ -5614,6 +5614,45 @@
 ([SemanticWeb_ProjectKB_Class12] of  Property_List
 )
 
+([SemanticWeb_ProjectKB_Class12149] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "http://www.cs.le.ac.uk/co7216#hasMaxWeightKG")
+	(property_list [SemanticWeb_ProjectKB_Class12150])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
+	(width 200)
+	(x 0)
+	(y 780))
+
+([SemanticWeb_ProjectKB_Class12150] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class12157] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([SemanticWeb_ProjectKB_Class12158] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Thing")
+	(string_value "%3ANAME"))
+
+([SemanticWeb_ProjectKB_Class12159] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Class")
+	(string_value "%3ANAME"))
+
+([SemanticWeb_ProjectKB_Class12160] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([SemanticWeb_ProjectKB_Class12161] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
 ([SemanticWeb_ProjectKB_Class13] of  Widget
 
 	(is_hidden TRUE)
@@ -5737,6 +5776,20 @@
 	(property_list [SemanticWeb_ProjectKB_Class38])
 	(widget_class_name "edu.stanford.smi.protegex.changeanalysis.ChangeAnalysisTab"))
 
+([SemanticWeb_ProjectKB_Class376] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "http://www.cs.le.ac.uk/co7216#hasMaxWeightKG")
+	(property_list [SemanticWeb_ProjectKB_Class377])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
+	(width 200)
+	(x 0)
+	(y 780))
+
+([SemanticWeb_ProjectKB_Class377] of  Property_List
+)
+
 ([SemanticWeb_ProjectKB_Class38] of  Property_List
 )
 
@@ -5821,31 +5874,6 @@
 ([SemanticWeb_ProjectKB_Class54] of  Property_List
 )
 
-([SemanticWeb_ProjectKB_Class55] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([SemanticWeb_ProjectKB_Class56] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Thing")
-	(string_value "%3ANAME"))
-
-([SemanticWeb_ProjectKB_Class57] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Class")
-	(string_value "%3ANAME"))
-
-([SemanticWeb_ProjectKB_Class58] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([SemanticWeb_ProjectKB_Class59] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
-
 ([SemanticWeb_ProjectKB_Class6] of  Property_List
 )
 
@@ -5863,6 +5891,34 @@
 	(is_hidden TRUE)
 	(property_list [SemanticWeb_ProjectKB_Class10])
 	(widget_class_name "edu.stanford.smi.protegex.server_changes.prompt.UsersTab"))
+
+([SemanticWeb_ProjectKB_Class921] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "http://www.cs.le.ac.uk/co7216#hasMaxWeightKG")
+	(property_list [SemanticWeb_ProjectKB_Class922])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
+	(width 200)
+	(x 0)
+	(y 780))
+
+([SemanticWeb_ProjectKB_Class922] of  Property_List
+)
+
+([SemanticWeb_ProjectKB_Class993] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "http://www.cs.le.ac.uk/co7216#hasMaxWeightKG")
+	(property_list [SemanticWeb_ProjectKB_Class994])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
+	(width 200)
+	(x 0)
+	(y 180))
+
+([SemanticWeb_ProjectKB_Class994] of  Property_List
+)
 
 ([SLOTS_TAB] of  Widget
 
