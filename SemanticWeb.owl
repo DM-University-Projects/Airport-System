@@ -279,36 +279,14 @@
   </rdf:Property>
   <Flight_Attendant rdf:ID="Sam_Rick">
     <isAssignedToFlight>
-      <Flight_Number rdf:ID="BA2490">
+      <Flight_Number rdf:ID="BA2491">
         <FlightDestination>
-          <Country rdf:ID="Hong_Kong">
+          <Country rdf:ID="Thailand">
             <capitalOf>
-              <City rdf:ID="Beijing"/>
+              <City rdf:ID="Tokyo"/>
             </capitalOf>
           </Country>
         </FlightDestination>
-        <FlightDestination>
-          <City rdf:ID="Tokyo"/>
-        </FlightDestination>
-      </Flight_Number>
-    </isAssignedToFlight>
-    <isAssignedToFlight>
-      <Flight_Number rdf:ID="BA2496">
-        <FlightDestination>
-          <Country rdf:ID="Thailand">
-            <capitalOf rdf:resource="#Tokyo"/>
-          </Country>
-        </FlightDestination>
-        <FlightDestination>
-          <City rdf:ID="Bangkok">
-            <capitalOf rdf:resource="#Thailand"/>
-          </City>
-        </FlightDestination>
-        <FlightDestination rdf:resource="#Tokyo"/>
-      </Flight_Number>
-    </isAssignedToFlight>
-    <isAssignedToFlight>
-      <Flight_Number rdf:ID="BA2491">
         <FlightDestination>
           <Country rdf:ID="Jamiaca">
             <capitalOf>
@@ -316,19 +294,46 @@
             </capitalOf>
           </Country>
         </FlightDestination>
+      </Flight_Number>
+    </isAssignedToFlight>
+    <isAssignedToFlight>
+      <Flight_Number rdf:ID="BA2496">
+        <FlightDestination rdf:resource="#Tokyo"/>
+        <FlightDestination>
+          <City rdf:ID="Bangkok">
+            <capitalOf rdf:resource="#Thailand"/>
+          </City>
+        </FlightDestination>
         <FlightDestination rdf:resource="#Thailand"/>
+      </Flight_Number>
+    </isAssignedToFlight>
+    <isAssignedToFlight>
+      <Flight_Number rdf:ID="BA2490">
+        <FlightDestination rdf:resource="#Tokyo"/>
+        <FlightDestination>
+          <Country rdf:ID="Hong_Kong">
+            <capitalOf>
+              <City rdf:ID="Beijing"/>
+            </capitalOf>
+          </Country>
+        </FlightDestination>
       </Flight_Number>
     </isAssignedToFlight>
     <isAirline>
       <Airline rdf:ID="Air_France-AF">
         <hasPassengerAircraft>
-          <Passenger_Aircraft rdf:ID="AIrbus_A310">
+          <Passenger_Aircraft rdf:ID="Airbus_A300">
             <isTypeOf>
               <Aircraft rdf:ID="Military_Aircrafts"/>
             </isTypeOf>
+          </Passenger_Aircraft>
+        </hasPassengerAircraft>
+        <hasPassengerAircraft>
+          <Passenger_Aircraft rdf:ID="Boeing_747">
             <isTypeOf>
               <Aircraft rdf:ID="General_Aircrafts"/>
             </isTypeOf>
+            <isTypeOf rdf:resource="#Military_Aircrafts"/>
           </Passenger_Aircraft>
         </hasPassengerAircraft>
         <hasPassengerAircraft>
@@ -337,18 +342,13 @@
           </Passenger_Aircraft>
         </hasPassengerAircraft>
         <hasPassengerAircraft>
-          <Passenger_Aircraft rdf:ID="Boeing_747">
-            <isTypeOf rdf:resource="#Military_Aircrafts"/>
+          <Passenger_Aircraft rdf:ID="AIrbus_A310">
             <isTypeOf rdf:resource="#General_Aircrafts"/>
-          </Passenger_Aircraft>
-        </hasPassengerAircraft>
-        <hasPassengerAircraft>
-          <Passenger_Aircraft rdf:ID="Airbus_A300">
             <isTypeOf rdf:resource="#Military_Aircrafts"/>
           </Passenger_Aircraft>
         </hasPassengerAircraft>
         <hasMilitaryAircraft>
-          <Military_Aircraft rdf:ID="Dassult_Rafale">
+          <Military_Aircraft rdf:ID="McDonnell_Douglas_F-15">
             <isTypeOf rdf:resource="#Military_Aircrafts"/>
           </Military_Aircraft>
         </hasMilitaryAircraft>
@@ -358,7 +358,7 @@
           </Military_Aircraft>
         </hasMilitaryAircraft>
         <hasMilitaryAircraft>
-          <Military_Aircraft rdf:ID="McDonnell_Douglas_F-15">
+          <Military_Aircraft rdf:ID="Dassult_Rafale">
             <isTypeOf rdf:resource="#Military_Aircrafts"/>
           </Military_Aircraft>
         </hasMilitaryAircraft>
@@ -370,6 +370,17 @@
   <Lead_Flight_Attendant rdf:ID="Micheal">
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Micheal Tom Craig</hasFullName>
+    <isAssignedToFlight rdf:resource="#BA2496"/>
+    <isAssignedToFlight>
+      <Flight_Number rdf:ID="BA2492">
+        <FlightDestination rdf:resource="#Hong_Kong"/>
+        <FlightDestination>
+          <Country rdf:ID="Japan">
+            <capitalOf rdf:resource="#Tokyo"/>
+          </Country>
+        </FlightDestination>
+      </Flight_Number>
+    </isAssignedToFlight>
     <isAssignedToFlight>
       <Flight_Number rdf:ID="BA2494">
         <FlightDestination>
@@ -379,37 +390,17 @@
         </FlightDestination>
       </Flight_Number>
     </isAssignedToFlight>
-    <isAssignedToFlight>
-      <Flight_Number rdf:ID="BA2492">
-        <FlightDestination>
-          <Country rdf:ID="Japan">
-            <capitalOf rdf:resource="#Tokyo"/>
-          </Country>
-        </FlightDestination>
-        <FlightDestination rdf:resource="#Hong_Kong"/>
-      </Flight_Number>
-    </isAssignedToFlight>
-    <isAssignedToFlight rdf:resource="#BA2496"/>
   </Lead_Flight_Attendant>
   <City rdf:ID="Dubai"/>
   <Flight_Attendant rdf:ID="Samantha_Stew">
     <isAssignedToFlight>
-      <Flight_Number rdf:ID="BA2495">
-        <FlightDestination>
-          <Country rdf:ID="Spain">
-            <capitalOf>
-              <City rdf:ID="Madrid"/>
-            </capitalOf>
-          </Country>
-        </FlightDestination>
-        <FlightDestination>
-          <City rdf:ID="Singapore"/>
-        </FlightDestination>
-      </Flight_Number>
-    </isAssignedToFlight>
-    <isAssignedToFlight rdf:resource="#BA2492"/>
-    <isAssignedToFlight>
       <Flight_Number rdf:ID="BA2412">
+        <FlightDestination>
+          <City rdf:ID="Istanbul"/>
+        </FlightDestination>
+        <FlightDestination>
+          <City rdf:ID="Seoul"/>
+        </FlightDestination>
         <FlightDestination>
           <Country rdf:ID="Cyprus">
             <capitalOf>
@@ -417,11 +408,20 @@
             </capitalOf>
           </Country>
         </FlightDestination>
+      </Flight_Number>
+    </isAssignedToFlight>
+    <isAssignedToFlight rdf:resource="#BA2492"/>
+    <isAssignedToFlight>
+      <Flight_Number rdf:ID="BA2495">
         <FlightDestination>
-          <City rdf:ID="Seoul"/>
+          <City rdf:ID="Singapore"/>
         </FlightDestination>
         <FlightDestination>
-          <City rdf:ID="Istanbul"/>
+          <Country rdf:ID="Spain">
+            <capitalOf>
+              <City rdf:ID="Madrid"/>
+            </capitalOf>
+          </Country>
         </FlightDestination>
       </Flight_Number>
     </isAssignedToFlight>
@@ -466,8 +466,8 @@
     </hasAvailableRunWay>
     <hasMilitaryAircraft>
       <Military_Aircraft rdf:ID="Spirit_B-2">
-        <isTypeOf rdf:resource="#General_Aircrafts"/>
         <isTypeOf rdf:resource="#Military_Aircrafts"/>
+        <isTypeOf rdf:resource="#General_Aircrafts"/>
       </Military_Aircraft>
     </hasMilitaryAircraft>
     <hasMilitaryAircraft>
@@ -496,8 +496,8 @@
     </hasAvailableRunWay>
     <hasPassengerAircraft>
       <Passenger_Aircraft rdf:ID="de_Havilland_Comet">
-        <isTypeOf rdf:resource="#Military_Aircrafts"/>
         <isTypeOf rdf:resource="#General_Aircrafts"/>
+        <isTypeOf rdf:resource="#Military_Aircrafts"/>
       </Passenger_Aircraft>
     </hasPassengerAircraft>
     <hasSecurity>
@@ -511,16 +511,16 @@
     </hasSecurity>
   </International_Airport>
   <Senior_Flight_Attendant rdf:ID="Brick_Jones">
-    <isAssignedToFlight rdf:resource="#BA2496"/>
-    <isAssignedToFlight rdf:resource="#BA2491"/>
     <isAssignedToFlight rdf:resource="#BA2490"/>
+    <isAssignedToFlight rdf:resource="#BA2491"/>
+    <isAssignedToFlight rdf:resource="#BA2496"/>
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Brick Jones Clark</hasFullName>
   </Senior_Flight_Attendant>
   <City rdf:ID="City_5"/>
   <Lead_Flight_Attendant rdf:ID="David_Morris">
-    <isAssignedToFlight rdf:resource="#BA2490"/>
     <isAssignedToFlight rdf:resource="#BA2495"/>
+    <isAssignedToFlight rdf:resource="#BA2490"/>
     <isAirline rdf:resource="#Air_France-AF"/>
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >David Alexi Morris</hasFullName>
@@ -528,15 +528,15 @@
   <Flight_Attendant rdf:ID="Sarah_Smith">
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Sarah Smith Stevens</hasFullName>
-    <isAssignedToFlight rdf:resource="#BA2496"/>
-    <isAssignedToFlight rdf:resource="#BA2492"/>
     <isAssignedToFlight rdf:resource="#BA2490"/>
+    <isAssignedToFlight rdf:resource="#BA2492"/>
+    <isAssignedToFlight rdf:resource="#BA2496"/>
   </Flight_Attendant>
   <Flight_Attendant rdf:ID="Jack_Jones">
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Jack Jones Davison</hasFullName>
-    <isAssignedToFlight rdf:resource="#BA2496"/>
     <isAssignedToFlight rdf:resource="#BA2490"/>
+    <isAssignedToFlight rdf:resource="#BA2496"/>
   </Flight_Attendant>
   <Baggage_Reclaim_Area rdf:ID="Main_Floor_Reclaim_Area"/>
   <Country rdf:ID="China">
@@ -544,15 +544,15 @@
   </Country>
   <City rdf:ID="City_2"/>
   <Flight_Attendant rdf:ID="Sally_Tims">
-    <isAssignedToFlight rdf:resource="#BA2492"/>
     <isAssignedToFlight rdf:resource="#BA2495"/>
+    <isAssignedToFlight rdf:resource="#BA2492"/>
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Sally Times Carol</hasFullName>
   </Flight_Attendant>
   <City rdf:ID="City_3"/>
   <Domestic_Airport rdf:ID="Eagle_Flights">
-    <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
     <hasPassengerAircraft rdf:resource="#Comac_C919"/>
+    <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
     <hasAvailableRunWay>
       <Runway rdf:ID="NoAvailableRunWays"/>
     </hasAvailableRunWay>
@@ -566,10 +566,10 @@
     </isLocatedIn>
     <hasSecurity rdf:resource="#Bag_Checking_Security"/>
     <hasAssignedPilots>
-      <Pilot rdf:ID="Eric_Preach"/>
+      <Co-Pilot rdf:ID="Harry_Modern"/>
     </hasAssignedPilots>
     <hasAssignedPilots>
-      <Co-Pilot rdf:ID="Harry_Modern"/>
+      <Pilot rdf:ID="Eric_Preach"/>
     </hasAssignedPilots>
   </Domestic_Airport>
   <Airline rdf:ID="Lufthansa-LH">
@@ -599,31 +599,31 @@
   </Airline>
   <Customer_Service rdf:ID="Airport_Security"/>
   <Airline rdf:ID="Flybe-BE">
-    <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
-    <hasMilitaryAircraft rdf:resource="#Spirit_B-2"/>
     <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
-    <hasPassengerAircraft rdf:resource="#Comac_C919"/>
+    <hasMilitaryAircraft rdf:resource="#Spirit_B-2"/>
+    <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
+    <hasPassengerAircraft rdf:resource="#Airbus_A380"/>
     <hasPassengerAircraft>
       <Passenger_Aircraft rdf:ID="Mc_Donnell_Douglas_MD-80">
         <isTypeOf rdf:resource="#Military_Aircrafts"/>
       </Passenger_Aircraft>
     </hasPassengerAircraft>
-    <hasPassengerAircraft rdf:resource="#Airbus_A380"/>
+    <hasPassengerAircraft rdf:resource="#Comac_C919"/>
   </Airline>
   <Custom_Airport rdf:ID="NearBy_Flights">
     <hasMilitaryAircraft rdf:resource="#Black_Hawk_UH-60"/>
-    <hasSecurity rdf:resource="#Bag_Checking_Security"/>
     <hasSecurity>
       <Baggage_Security rdf:ID="Dog_Squad_Security"/>
     </hasSecurity>
+    <hasSecurity rdf:resource="#Bag_Checking_Security"/>
     <hasPassengerAircraft rdf:resource="#Boeing_747"/>
     <hasAvailableRunWay rdf:resource="#NoAvailableRunWays"/>
     <isLocatedIn rdf:resource="#United_Kingdom"/>
     <hasAssignedPilots>
-      <Pilot rdf:ID="Morthy_Zones"/>
+      <Co-Pilot rdf:ID="Steve_Clarks"/>
     </hasAssignedPilots>
     <hasAssignedPilots>
-      <Co-Pilot rdf:ID="Steve_Clarks"/>
+      <Pilot rdf:ID="Morthy_Zones"/>
     </hasAssignedPilots>
   </Custom_Airport>
   <Baggage_Reclaim_Area rdf:ID="South_Zone_Reclaim_Area"/>
@@ -631,16 +631,16 @@
     <hasFlightNumber>
       <Flight_Number rdf:ID="BA2411">
         <FlightDestination>
+          <City rdf:ID="New_York"/>
+        </FlightDestination>
+        <FlightDestination rdf:resource="#Seoul"/>
+        <FlightDestination rdf:resource="#Bangkok"/>
+        <FlightDestination>
           <Country rdf:ID="Cuba">
             <capitalOf>
               <City rdf:ID="Havana"/>
             </capitalOf>
           </Country>
-        </FlightDestination>
-        <FlightDestination rdf:resource="#Bangkok"/>
-        <FlightDestination rdf:resource="#Seoul"/>
-        <FlightDestination>
-          <City rdf:ID="New_York"/>
         </FlightDestination>
       </Flight_Number>
     </hasFlightNumber>
@@ -674,18 +674,18 @@
         >24</LuggageWeight>
         <isAirline>
           <Airline rdf:ID="British_Airways-BA">
-            <hasMilitaryAircraft rdf:resource="#Black_Hawk_UH-60"/>
-            <hasMilitaryAircraft rdf:resource="#Constant_Phoenix_WC-135"/>
-            <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
             <hasMilitaryAircraft rdf:resource="#Spirit_B-2"/>
+            <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
+            <hasMilitaryAircraft rdf:resource="#Constant_Phoenix_WC-135"/>
+            <hasMilitaryAircraft rdf:resource="#Black_Hawk_UH-60"/>
+            <hasPassengerAircraft rdf:resource="#de_Havilland_Comet"/>
+            <hasPassengerAircraft rdf:resource="#Comac_C919"/>
             <hasPassengerAircraft>
               <Passenger_Aircraft rdf:ID="Irkut_MC-21">
-                <isTypeOf rdf:resource="#Military_Aircrafts"/>
                 <isTypeOf rdf:resource="#General_Aircrafts"/>
+                <isTypeOf rdf:resource="#Military_Aircrafts"/>
               </Passenger_Aircraft>
             </hasPassengerAircraft>
-            <hasPassengerAircraft rdf:resource="#Comac_C919"/>
-            <hasPassengerAircraft rdf:resource="#de_Havilland_Comet"/>
           </Airline>
         </isAirline>
         <hasMobileNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -722,15 +722,15 @@
         >thehulk@gmail.com</hasEmail>
         <hasFlightNumber>
           <Flight_Number rdf:ID="BA2493">
+            <FlightDestination rdf:resource="#New_York"/>
+            <FlightDestination>
+              <City rdf:ID="Kuala_Lumpur"/>
+            </FlightDestination>
             <FlightDestination>
               <Country rdf:ID="Paris">
                 <capitalOf rdf:resource="#Seoul"/>
               </Country>
             </FlightDestination>
-            <FlightDestination>
-              <City rdf:ID="Kuala_Lumpur"/>
-            </FlightDestination>
-            <FlightDestination rdf:resource="#New_York"/>
           </Flight_Number>
         </hasFlightNumber>
         <isParentOf>
@@ -819,26 +819,26 @@
                             <hasMilitaryAircraft rdf:resource="#Constant_Phoenix_WC-135"/>
                             <isLocatedIn rdf:resource="#United_Kingdom"/>
                             <hasAssignedPilots>
-                              <Pilot rdf:ID="Tommy_Hair"/>
-                            </hasAssignedPilots>
-                            <hasAssignedPilots>
                               <Co-Pilot rdf:ID="Ricky_Blade"/>
                             </hasAssignedPilots>
+                            <hasAssignedPilots>
+                              <Pilot rdf:ID="Tommy_Hair"/>
+                            </hasAssignedPilots>
                             <hasAvailableRunWay rdf:resource="#west-Runway-36"/>
-                            <hasPassengerAircraft rdf:resource="#Irkut_MC-21"/>
                             <hasPassengerAircraft rdf:resource="#Comac_C919"/>
+                            <hasPassengerAircraft rdf:resource="#Irkut_MC-21"/>
                           </International_Airport>
                         </isAirport>
                         <Identity_Check rdf:resource="#Passport_check"/>
                         <isAirline>
                           <Airline rdf:ID="American_Airlines-AA">
-                            <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
-                            <hasPassengerAircraft rdf:resource="#Comac_C919"/>
-                            <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
                             <hasPassengerAircraft rdf:resource="#Boeing_747"/>
-                            <hasMilitaryAircraft rdf:resource="#Constant_Phoenix_WC-135"/>
-                            <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
+                            <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
+                            <hasPassengerAircraft rdf:resource="#Comac_C919"/>
+                            <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
                             <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
+                            <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
+                            <hasMilitaryAircraft rdf:resource="#Constant_Phoenix_WC-135"/>
                           </Airline>
                         </isAirline>
                         <isFriendsOf rdf:resource="#Steve_Clarks"/>
@@ -857,15 +857,15 @@
                     >10</isAge>
                     <isAirline>
                       <Airline rdf:ID="Emirates_EM">
+                        <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
                         <hasPassengerAircraft>
                           <Passenger_Aircraft rdf:ID="Boeing_767">
                             <isTypeOf rdf:resource="#General_Aircrafts"/>
                           </Passenger_Aircraft>
                         </hasPassengerAircraft>
-                        <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
-                        <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
-                        <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
                         <hasMilitaryAircraft rdf:resource="#Spirit_B-2"/>
+                        <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
+                        <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
                       </Airline>
                     </isAirline>
                     <hasWeightCheck>
@@ -1064,19 +1064,19 @@
     >22</LuggageWeight>
   </Children>
   <Lead_Flight_Attendant rdf:ID="Lewis">
-    <isAssignedToFlight rdf:resource="#BA2495"/>
     <isAssignedToFlight rdf:resource="#BA2491"/>
+    <isAssignedToFlight rdf:resource="#BA2495"/>
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Lewis Robbinson Jones</hasFullName>
   </Lead_Flight_Attendant>
   <Airline rdf:ID="Ryanair-FR">
-    <hasPassengerAircraft rdf:resource="#Mc_Donnell_Douglas_MD-80"/>
-    <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
     <hasPassengerAircraft rdf:resource="#Comac_C919"/>
-    <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
-    <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
-    <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
+    <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
+    <hasPassengerAircraft rdf:resource="#Mc_Donnell_Douglas_MD-80"/>
     <hasMilitaryAircraft rdf:resource="#Constant_Phoenix_WC-135"/>
+    <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
+    <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
+    <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
   </Airline>
   <Adult rdf:ID="Steve_Rogers">
     <isReclaimingBags rdf:resource="#South_Baggage_Check_LowerFloor"/>
@@ -1122,13 +1122,13 @@
   <Flight_Attendant rdf:ID="Ricky_Storm">
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Ricky Strom Hicks</hasFullName>
-    <isAssignedToFlight rdf:resource="#BA2496"/>
-    <isAssignedToFlight rdf:resource="#BA2491"/>
     <isAssignedToFlight rdf:resource="#BA2493"/>
+    <isAssignedToFlight rdf:resource="#BA2491"/>
+    <isAssignedToFlight rdf:resource="#BA2496"/>
   </Flight_Attendant>
   <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#MaxCardinalityRestriction">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <rdfs:subClassOf rdf:resource="#Passenger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
   <Domestic_Airport rdf:ID="Air_Plus">
     <hasAvailableRunWay rdf:resource="#East-Runway-31"/>
@@ -1146,18 +1146,18 @@
     <hasAssignedPilots rdf:resource="#Ricky_Sand"/>
   </Domestic_Airport>
   <Flight_Attendant rdf:ID="Steven_Jones">
-    <isAssignedToFlight rdf:resource="#BA2491"/>
     <isAssignedToFlight rdf:resource="#BA2494"/>
+    <isAssignedToFlight rdf:resource="#BA2491"/>
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Steven Jones Morris</hasFullName>
   </Flight_Attendant>
   <Domestic_Airport rdf:ID="FlightsStars_Airport">
-    <hasAssignedPilots rdf:resource="#Jabone_Jack"/>
     <hasAssignedPilots>
       <Co-Pilot rdf:ID="Frank_Francis"/>
     </hasAssignedPilots>
-    <hasSecurity rdf:resource="#Prevention_Force_Security"/>
+    <hasAssignedPilots rdf:resource="#Jabone_Jack"/>
     <hasSecurity rdf:resource="#Dog_Squad_Security"/>
+    <hasSecurity rdf:resource="#Prevention_Force_Security"/>
     <hasPassengerAircraft rdf:resource="#Boeing_747"/>
     <isLocatedIn rdf:resource="#United_Kingdom"/>
     <hasAvailableRunWay rdf:resource="#NoAvailableRunWays"/>
@@ -1174,10 +1174,10 @@
     <hasWeightCheck rdf:resource="#Over_Required_Weight"/>
     <isAirline>
       <Airline rdf:ID="Delta_Airlines-DA">
-        <hasMilitaryAircraft rdf:resource="#Dassult_Rafale"/>
         <hasMilitaryAircraft rdf:resource="#Spirit_B-2"/>
-        <hasPassengerAircraft rdf:resource="#Irkut_MC-21"/>
+        <hasMilitaryAircraft rdf:resource="#Dassult_Rafale"/>
         <hasPassengerAircraft rdf:resource="#Boeing_767"/>
+        <hasPassengerAircraft rdf:resource="#Irkut_MC-21"/>
       </Airline>
     </isAirline>
     <isChildOf rdf:resource="#Kitty_Pryde"/>
@@ -1199,8 +1199,8 @@
       <Airport_Location rdf:ID="Canada"/>
     </isLocatedIn>
     <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
-    <hasAssignedPilots rdf:resource="#James_Peterson"/>
     <hasAssignedPilots rdf:resource="#Harry_Modern"/>
+    <hasAssignedPilots rdf:resource="#James_Peterson"/>
   </Custom_Airport>
   <Children rdf:ID="Shara">
     <hasMobileNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -1261,16 +1261,16 @@
     <isParentOf rdf:resource="#Bette_Kane"/>
     <isAirline>
       <Airline rdf:ID="United_Airlines-UA">
-        <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
-        <hasPassengerAircraft rdf:resource="#Boeing_747"/>
         <hasPassengerAircraft rdf:resource="#Llyushin_II-62"/>
-        <hasMilitaryAircraft rdf:resource="#Eurofighter_Typhoon"/>
-        <hasMilitaryAircraft rdf:resource="#Dassult_Rafale"/>
+        <hasPassengerAircraft rdf:resource="#Boeing_747"/>
+        <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
         <hasMilitaryAircraft>
           <Military_Aircraft rdf:ID="Texan_T-6">
             <isTypeOf rdf:resource="#Military_Aircrafts"/>
           </Military_Aircraft>
         </hasMilitaryAircraft>
+        <hasMilitaryAircraft rdf:resource="#Dassult_Rafale"/>
+        <hasMilitaryAircraft rdf:resource="#Eurofighter_Typhoon"/>
       </Airline>
     </isAirline>
     <hasFlightNumber rdf:resource="#BA2496"/>
@@ -1316,17 +1316,17 @@
   <Luggage_Size_Restriction rdf:ID="Luggages_45KG_or_more"/>
   <City rdf:ID="London"/>
   <Airline rdf:ID="German_Wings_GW">
-    <hasPassengerAircraft rdf:resource="#Airbus_A380"/>
-    <hasPassengerAircraft rdf:resource="#Boeing_767"/>
     <hasPassengerAircraft rdf:resource="#Irkut_MC-21"/>
-    <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
-    <hasMilitaryAircraft rdf:resource="#Texan_T-6"/>
+    <hasPassengerAircraft rdf:resource="#Boeing_767"/>
+    <hasPassengerAircraft rdf:resource="#Airbus_A380"/>
     <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
+    <hasMilitaryAircraft rdf:resource="#Texan_T-6"/>
+    <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
   </Airline>
   <Flight_Attendant rdf:ID="Kitty_Brain">
-    <isAssignedToFlight rdf:resource="#BA2491"/>
-    <isAssignedToFlight rdf:resource="#BA2493"/>
     <isAssignedToFlight rdf:resource="#BA2490"/>
+    <isAssignedToFlight rdf:resource="#BA2493"/>
+    <isAssignedToFlight rdf:resource="#BA2491"/>
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Kitty Brain Ricks</hasFullName>
   </Flight_Attendant>
@@ -1361,12 +1361,12 @@
   </International_Airport>
   <City rdf:about="#"/>
   <Airline rdf:ID="KLM-KL">
-    <hasMilitaryAircraft rdf:resource="#Constant_Phoenix_WC-135"/>
-    <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
     <hasMilitaryAircraft rdf:resource="#Spirit_B-2"/>
-    <hasPassengerAircraft rdf:resource="#de_Havilland_Comet"/>
-    <hasPassengerAircraft rdf:resource="#Comac_C919"/>
+    <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
+    <hasMilitaryAircraft rdf:resource="#Constant_Phoenix_WC-135"/>
     <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
+    <hasPassengerAircraft rdf:resource="#Comac_C919"/>
+    <hasPassengerAircraft rdf:resource="#de_Havilland_Comet"/>
   </Airline>
   <Luggage_Size_Restriction rdf:ID="Luggages_25KG_or_more"/>
   <Lead_Flight_Attendant rdf:ID="Win_Cheng">
@@ -1375,13 +1375,13 @@
     <isAssignedToFlight rdf:resource="#BA2496"/>
   </Lead_Flight_Attendant>
   <Airline rdf:ID="Turkish_Airlines-TK">
-    <hasPassengerAircraft rdf:resource="#de_Havilland_Comet"/>
-    <hasPassengerAircraft rdf:resource="#AIrbus_A310"/>
-    <hasPassengerAircraft rdf:resource="#Airbus_A380"/>
-    <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
     <hasPassengerAircraft rdf:resource="#Irkut_MC-21"/>
-    <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
+    <hasPassengerAircraft rdf:resource="#Boeing_787_Dreamliner"/>
+    <hasPassengerAircraft rdf:resource="#Airbus_A380"/>
+    <hasPassengerAircraft rdf:resource="#AIrbus_A310"/>
+    <hasPassengerAircraft rdf:resource="#de_Havilland_Comet"/>
     <hasMilitaryAircraft rdf:resource="#Dassult_Rafale"/>
+    <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
   </Airline>
   <International_Airport rdf:ID="Senki-Jigzan_Flights_SJF">
     <hasAssignedPilots>
@@ -1400,12 +1400,12 @@
     <isLocatedIn rdf:resource="#United_States_of_America"/>
   </International_Airport>
   <Airline rdf:ID="EasyJet_EJ">
-    <hasPassengerAircraft rdf:resource="#Boeing_767"/>
-    <hasPassengerAircraft rdf:resource="#Airbus_A380"/>
     <hasPassengerAircraft rdf:resource="#Airbus_A300"/>
-    <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
-    <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
+    <hasPassengerAircraft rdf:resource="#Airbus_A380"/>
+    <hasPassengerAircraft rdf:resource="#Boeing_767"/>
     <hasMilitaryAircraft rdf:resource="#McDonnell_Douglas_F-15"/>
+    <hasMilitaryAircraft rdf:resource="#The_Raptor_F-22"/>
+    <hasMilitaryAircraft rdf:resource="#Talon_T-38"/>
   </Airline>
   <International_Airport rdf:ID="Manchester_MAN">
     <hasSecurity rdf:resource="#Bag_Checking_Security"/>
@@ -1445,14 +1445,14 @@
     <hasPassengerAircraft rdf:resource="#de_Havilland_Comet"/>
   </International_Airport>
   <Senior_Flight_Attendant rdf:ID="Harry_Blake">
-    <isAssignedToFlight rdf:resource="#BA2493"/>
     <isAssignedToFlight rdf:resource="#BA2490"/>
+    <isAssignedToFlight rdf:resource="#BA2493"/>
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     ></hasFullName>
   </Senior_Flight_Attendant>
   <Flight_Attendant rdf:ID="Tim_Cliven">
-    <isAssignedToFlight rdf:resource="#BA2496"/>
     <isAssignedToFlight rdf:resource="#BA2491"/>
+    <isAssignedToFlight rdf:resource="#BA2496"/>
     <hasFullName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Tim Cliven Robin</hasFullName>
   </Flight_Attendant>

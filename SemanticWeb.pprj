@@ -1,4 +1,4 @@
-; Tue Feb 19 23:43:54 GMT 2019
+; Tue Mar 05 18:03:04 GMT 2019
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6,11 +6,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[SemanticWeb_ProjectKB_Class108]
-		[SemanticWeb_ProjectKB_Class109]
-		[SemanticWeb_ProjectKB_Class110]
-		[SemanticWeb_ProjectKB_Class111]
-		[SemanticWeb_ProjectKB_Class112]))
+		[SemanticWeb_ProjectKB_Class60]
+		[SemanticWeb_ProjectKB_Class61]
+		[SemanticWeb_ProjectKB_Class62]
+		[SemanticWeb_ProjectKB_Class63]
+		[SemanticWeb_ProjectKB_Class64]))
 
 ([CLSES_TAB] of  Widget
 
@@ -374,6 +374,9 @@
 	(name ":DIRECT-TEMPLATE-SLOTS")
 	(property_list [KB_100699_Instance_11])
 	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([KB_137051_Class0] of  Map
+)
 
 ([KB_140180_Instance_0] of  Widget
 
@@ -751,9 +754,6 @@
 
 	(name "owl_file_name")
 	(string_value "SemanticWeb.owl"))
-
-([KB_417185_Class0] of  Map
-)
 
 ([KB_444675_Instance_0] of  String
 
@@ -5605,36 +5605,11 @@
 ([SemanticWeb_ProjectKB_Class10] of  Property_List
 )
 
-([SemanticWeb_ProjectKB_Class108] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([SemanticWeb_ProjectKB_Class109] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Thing")
-	(string_value "%3ANAME"))
-
 ([SemanticWeb_ProjectKB_Class11] of  Widget
 
 	(is_hidden TRUE)
 	(property_list [SemanticWeb_ProjectKB_Class12])
 	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
-
-([SemanticWeb_ProjectKB_Class110] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Class")
-	(string_value "%3ANAME"))
-
-([SemanticWeb_ProjectKB_Class111] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([SemanticWeb_ProjectKB_Class112] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
 
 ([SemanticWeb_ProjectKB_Class12] of  Property_List
 )
@@ -5848,6 +5823,31 @@
 
 ([SemanticWeb_ProjectKB_Class6] of  Property_List
 )
+
+([SemanticWeb_ProjectKB_Class60] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([SemanticWeb_ProjectKB_Class61] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Thing")
+	(string_value "%3ANAME"))
+
+([SemanticWeb_ProjectKB_Class62] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Class")
+	(string_value "%3ANAME"))
+
+([SemanticWeb_ProjectKB_Class63] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([SemanticWeb_ProjectKB_Class64] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
 
 ([SemanticWeb_ProjectKB_Class7] of  Widget
 
